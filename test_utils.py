@@ -2,6 +2,7 @@ import unittest
 import os
 from utils import Renamer
 
+
 class TestUtils(unittest.TestCase):
 
     def test_rename(self):
@@ -13,6 +14,7 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(after_files[0], 'test1.txt')
         self.assertEqual(after_files[1], 'test2.txt')
         self.assertNotEqual(before_files, after_files)
+
 
 if __name__ == '__main__':
     unittest.main()
