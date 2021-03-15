@@ -28,14 +28,13 @@ optional arguments:
 ```bash
 $ python3 renamer.py ./test_folder -n test
 File Renaming Completed!
-
+```
 Before:
-[!alt_text](./SS/1.png)
+![alt text](https://github.com/PrashantMhrzn/Bulk-File-Renamer/blob/main/SS/1.png)
 
 After:
-[!alt_text](./SS/2.png)
+![alt text](https://github.com/PrashantMhrzn/Bulk-File-Renamer/blob/main/SS/2.png)
 
-```
 
 ## Installation
 ```bash
