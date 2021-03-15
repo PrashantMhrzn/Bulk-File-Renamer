@@ -3,12 +3,6 @@ import os
 
 class Renamer:
 
-    @property
-    def heading(self):
-        print('*'*35)
-        print('Welcome to the Bulk File Renamer!')
-        print('*'*35)
-
     def rename(self, path, naming_convention):
         if path[:-1] != '/':
             path += '/'
