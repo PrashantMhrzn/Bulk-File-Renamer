@@ -8,9 +8,6 @@ args = parser.parse_args()
 
 r = Renamer()
 try:
-    # path = input('Enter the folder path: ')
-    # naming_convention = input(
-    #     'Enter the naming convention(Empty for default name):')
     if args.naming_convention == None:
         args.naming_convention = 'file'
     r.rename(args.path, args.naming_convention)
